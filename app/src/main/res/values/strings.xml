@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">English to Morse Translator</string>
+    <string name="output_hint_text">here is what you input</string>
+    <string name="morse_Button_Text">Morse!</string>
+    <string name="english_Button_Text">English!</string>
+    <string name="textViewTranslator">Translator:</string>
+    <string name="input_Hint_Text">enter your morse code or english here</string>
+    <string name="textViewTranslation">Translation:</string>
+</resources>

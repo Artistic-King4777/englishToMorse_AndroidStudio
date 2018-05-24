@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/beautiful_night">
+
+    <TextView
+        android:id="@+id/translatorTextView"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/textViewTranslator"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/inputMain"
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="#000000"
+        android:hint="@string/input_Hint_Text"
+        android:inputType="text"
+        android:scrollbars="vertical"
+        android:textColor="#FF7C28"
+        android:textColorHint="#FF7C28"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/textViewTranslation"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/outputMain"
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="#000000"
+        android:hint="@string/output_hint_text"
+        android:textColor="#FF7C28"
+        android:textColorHint="#FF7C28"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/morseButton"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:text="@string/morse_Button_Text"
+        android:textColor="#731100"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/englishButton"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/inputMain"
+        android:layout_alignEnd="@+id/inputMain"
+        android:layout_alignTop="@+id/morseButton"
+        android:text="@string/english_Button_Text"
+        android:textColor="#731100"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
